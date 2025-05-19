@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: healthcare-container
-        image: bromaaascripts/health-care:${BUILD_NUMBER} 
+        image: bromaaascripts/health-care:$BUILD_NUMBER
         ports:
         - containerPort: 8080
 ---
